@@ -70,7 +70,16 @@
             <textarea rows="5" placeholder="请留下你的意见"></textarea>
             <button type="submit">提交留言</button>
         </form>
-    </section>
+    </section><div id="vcomments"></div>
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'M8DJp3LZ8tKshYcTUL2QGD4y-gzGzoHsz',
+    appKey: '89rRULsal9EF89UyLm79ttfF',
+    placeholder: '欢迎留言！'
+  })
+      </script>
 
     <!-- 广告区域 -->
     <aside>
